@@ -14,8 +14,10 @@ This model is then compared to an Azure AutoML run.
 
 ## Summary
 **In 1-2 sentences, explain the problem statement: e.g "This dataset contains data about... we seek to predict..."**
+The dataset contains data about clients and the result of marketing campaign (whether the client desided to subscribe to a term deposit or no (yes/no). We seek to predict, whether the client will subscribe to the term deposit based on client information such as age, job position, marital status and etc.
 
 **In 1-2 sentences, explain the solution: e.g. "The best performing model was a ..."**
+The best performing model was a VotingEnsemble model produced by AutoML, though, the performance of LogisticRegression model was not far away from VotingEnsemble (accuracy of 90.9 compared to 91.3 respectively). 
 
 ## Scikit-learn Pipeline
 **Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
