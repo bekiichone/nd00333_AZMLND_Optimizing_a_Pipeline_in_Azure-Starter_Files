@@ -52,4 +52,4 @@ AutoML selected VotingEnsemble as best model, whereas HyperDrive was tuning only
 As in all data science tasks, more thorough explotary data analysis and feature generation may result improvement of overall model performance. New features may be more correlated with target value or produce more insights on the problem.
 
 ## Proof of cluster clean up
-![This is an image](delete aml compute.PNG)
+!(https://github.com/bekiichone/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files/blob/master/delete%20aml%20compute.PNG)
